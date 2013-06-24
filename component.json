@@ -1,0 +1,26 @@
+{
+  "name": "filter",
+  "repo": "jkroso/filter",
+  "description": "select a subset of items from a collection",
+  "version": "0.1.0",
+  "keywords": [
+    "filter",
+    "select",
+    "higher order"
+  ],
+  "dependencies": {
+    "jkroso/when": "3.2.1",
+    "jkroso/map": "0.2.4",
+    "jkroso/result-type": "1.0.0",
+    "jkroso/result": "0.3.0"
+  },
+  "development": {
+    "visionmedia/mocha": "1.11.0",
+    "jkroso/serve": "1.4.1",
+    "chaijs/chai": "1.7.0"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}

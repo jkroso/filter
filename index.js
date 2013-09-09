@@ -1,7 +1,7 @@
 
 /**
  * select items from `obj` which pass `pred`
- * 
+ *
  * @param {Object|Array} obj
  * @param {Function} pred
  * @param {Any} ctx

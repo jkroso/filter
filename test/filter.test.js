@@ -1,7 +1,7 @@
 
+var async = require('../async')
 var chai = require('./chai')
-  , async = require('../async')
-  , filter = require('..')
+var filter = require('..')
 
 function notTwo(n){
 	return n !== 2

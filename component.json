@@ -2,21 +2,20 @@
   "name": "filter",
   "repo": "jkroso/filter",
   "description": "select a subset of items from a collection",
-  "version": "0.1.1",
   "keywords": [
     "filter",
     "select",
     "higher order"
   ],
   "dependencies": {
-    "jkroso/when": "3.2.4",
-    "jkroso/map": "0.2.6",
     "jkroso/result-type": "1.0.0",
-    "jkroso/result": "0.3.1"
+    "jkroso/lift-result": "0.1.1",
+    "jkroso/result": "0.4.2",
+    "jkroso/map": "0.2.8"
   },
   "development": {
-    "visionmedia/mocha": "1.12.0",
-    "jkroso/serve": "1.4.4",
+    "visionmedia/mocha": "1.12.1",
+    "jkroso/serve": "1.5.1",
     "chaijs/chai": "1.7.2"
   },
   "scripts": [

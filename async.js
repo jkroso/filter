@@ -1,13 +1,10 @@
 
-var decorate = require('when/decorate')
-  , ResultType = require('result-type')
-  , map = require('map/async')
-  , Result = require('result')
+var ResultType = require('result-type')
+var lift = require('lift-result')
+var map = require('map/async')
+var Result = require('result')
 
-module.exports = decorate(parallelFilter)
-module.exports.plain = parallelFilter
-
-function parallelFilter(obj, pred, ctx){
+module.exports = lift(function(obj, pred, ctx){
 	if (typeof obj.length == 'number') {
 		return map(obj, pred, ctx).then(function(oks){
 			var res = []
@@ -18,7 +15,7 @@ function parallelFilter(obj, pred, ctx){
 		})
 	}
 	return objectFilter(obj, pred, ctx)
-}
+})
 
 function objectFilter(obj, pred, ctx){
 	var res = {}

@@ -1,14 +1,13 @@
 {
   "name": "filter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "select a subset of items from a collection",
   "dependencies": {
-    "when": "http://github.com/jkroso/when/tarball/3.2.4",
-    "map": "http://github.com/jkroso/map/tarball/0.2.6",
+    "map": "http://github.com/jkroso/map/tarball/0.2.8",
     "result-type": "1.0.0",
-    "result": "0.3.1"
+    "lift-result": "0.1.1",
+    "result": "0.4.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/jkroso/filter.git"

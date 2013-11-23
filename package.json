@@ -1,20 +1,20 @@
 {
   "name": "filter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "select a subset of items from a collection",
   "dependencies": {
-    "map": "http://github.com/jkroso/map/tarball/0.2.8",
+    "map": "jkroso/map#0.2.9",
+    "lift-result": "~0.1.3",
     "result-type": "1.0.0",
-    "lift-result": "0.1.1",
-    "result": "0.4.2"
+    "result": "~0.4.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jkroso/filter.git"
+  "devDependencies": {
+    "serve": "jkroso/serve#1.5.1",
+    "mocha": "*",
+    "chai": "*"
   },
-  "bugs": {
-    "url": "https://github.com/jkroso/filter/issues"
-  },
+  "repository": "git://github.com/jkroso/filter.git",
+  "bugs": "https://github.com/jkroso/filter/issues",
   "keywords": ["filter", "select", "higher order"],
   "author": "Jake Rosoman",
   "license": "MIT"

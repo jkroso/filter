@@ -9,17 +9,10 @@
   ],
   "dependencies": {
     "jkroso/result-type": "1.0.0",
-    "jkroso/lift-result": "0.1.1",
-    "jkroso/result": "0.4.2",
-    "jkroso/map": "0.2.8"
+    "jkroso/lift-result": "0.1.3",
+    "jkroso/result": "0.4.4",
+    "jkroso/map": "0.2.9"
   },
-  "development": {
-    "visionmedia/mocha": "1.12.1",
-    "jkroso/serve": "1.5.1",
-    "chaijs/chai": "1.7.2"
-  },
-  "scripts": [
-    "index.js"
-  ],
+  "scripts": ["index.js"],
   "license": "MIT"
 }

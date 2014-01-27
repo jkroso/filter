@@ -1,16 +1,21 @@
 {
   "name": "filter",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "select a subset of items from a collection",
   "dependencies": {
     "map": "jkroso/map#0.2.10",
-    "lift-result": "~0.1.3",
     "result-type": "1.0.0",
     "result": "~0.4.7"
   },
   "devDependencies": {
     "serve": "jkroso/serve",
-    "mocha": "*",
+    "hydro-clean-stacks": "*",
+    "hydro-html": "*",
+    "hydro-chai": "*",
+    "hydro-dot": "*",
+    "hydro-bdd": "*",
+    "hydro": "*",
+    "jsmd": "*",
     "chai": "*"
   },
   "repository": "git://github.com/jkroso/filter.git",

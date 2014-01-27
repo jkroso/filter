@@ -22,3 +22,9 @@ var filter = require('filter')
 ### filter(array, fn, [ctx])
 
   select the items from `array` which are truthy values of `fn`
+
+```js
+filter([1,2,3,4], function(n){
+  return n % 2 == 0
+}) // => [2,4]
+```

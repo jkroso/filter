@@ -2,17 +2,13 @@
   "name": "filter",
   "repo": "jkroso/filter",
   "description": "select a subset of items from a collection",
-  "keywords": [
-    "filter",
-    "select",
-    "higher order"
-  ],
+  "keywords": ["filter", "select", "higher order"],
   "dependencies": {
     "jkroso/result-type": "1.0.0",
     "jkroso/lift-result": "0.1.3",
-    "jkroso/result": "0.4.4",
-    "jkroso/map": "0.2.9"
+    "jkroso/result": "0.4.7",
+    "jkroso/map": "0.2.10"
   },
-  "scripts": ["index.js"],
+  "scripts": ["index.js", "async.js"],
   "license": "MIT"
 }

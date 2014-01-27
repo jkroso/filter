@@ -1,24 +1,19 @@
 
+module.exports = filter
+
 /**
- * select items from `obj` which pass `pred`
+ * select the items from `array` which are truthy values of `fn`
  *
- * @param {Object|Array} obj
- * @param {Function} pred
+ * @param {Array} arr
+ * @param {Function} fn
  * @param {Any} ctx
- * @return {Object|Array}
+ * @return {Array}
  */
 
-module.exports = function(obj, pred, ctx){
-	if (typeof obj.length == 'number') {
-		var res = []
-		for (var k = 0, len = obj.length; k < len; k++) {
-			if (pred.call(ctx, obj[k], k)) res.push(obj[k])
-		}
-	} else {
-		var res = {}
-		for (var k in obj) {
-			if (pred.call(ctx, obj[k], k)) res[k] = obj[k]
-		}
-	}
-	return res
+function filter(arr, fn, ctx){
+  var res = []
+  for (var k = 0, len = arr.length; k < len; k++) {
+    if (fn.call(ctx, arr[k], k)) res.push(arr[k])
+  }
+  return res
 }

@@ -7,6 +7,12 @@ it('should maintain order', function(done){
   }).node(done)
 })
 
+it('delayed input', function(done){
+  filter(delay([1,2,3]), isEven).then(function(arr){
+    arr.should.eql([2])
+  }).node(done)
+})
+
 describe('error handling', function(){
   it('sync errors', function(done){
     filter([1,2,3], function(){

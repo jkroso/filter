@@ -1,11 +1,11 @@
 {
   "name": "filter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "select a subset of items from a collection",
   "dependencies": {
-    "map": "jkroso/map#0.2.10",
+    "map": "jkroso/map#0.2.11",
     "result-type": "1.0.0",
-    "result": "~0.4.7"
+    "result": "~1.0.1"
   },
   "devDependencies": {
     "serve": "jkroso/serve",

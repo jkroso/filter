@@ -4,8 +4,8 @@
   "description": "select a subset of items from a collection",
   "keywords": ["filter", "select", "higher order"],
   "dependencies": {
-    "jkroso/result": "0.4.7",
-    "jkroso/map": "0.2.10"
+    "jkroso/result": "1.0.1",
+    "jkroso/map": "0.2.11"
   },
   "scripts": ["index.js", "async.js"],
   "license": "MIT"
